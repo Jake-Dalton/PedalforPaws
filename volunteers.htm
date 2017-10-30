@@ -1,0 +1,336 @@
+<!--
+      Purpose: Pedal for Paws and Claws Volunteers Page
+      Author: Nikki Vandermeer and Jake Dalton 
+      Date:   4/17/15
+      Updated: 8/13/2015 N.V.
+
+      Filename:   volunteers.htm
+      Related files: index.htm, CSS/styles.css
+      Supporting files: 
+   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pedal for Paws and Claws</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <script src="js/respond.min.js"></script>
+  
+    <style>
+        #table-responsive {
+            overflow: scroll;
+            border: 1px solid grey;
+            width: auto;
+            height: 400px;
+        }
+        
+          #table-responsive #agree {
+              padding-left: 30%;
+        }
+        
+        #volimg p {
+          font-size: 20px;
+        }
+      
+        #footer p {
+            font-size: 12px;
+            font-family:inherit;
+            text-align: center;
+        }
+
+        #footer p a {
+            text-decoration: none;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+
+<!--Like Facebook icon-->
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Horizontal Nav Bar -->
+    <body>
+        <div class="navbar-wrapper">
+            <div class="container-fluid">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <p id="menuText">Menu <img src="images/paw_red.png" width="25px"/></p>
+                            </button>
+                        </div>
+
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav nav-justified">
+                                <li class="active"><a href="index.htm" class="btn btn-default"><img src="images/paw_red.png" />Home</a></li>
+                                <li><a href="event.htm" class="btn btn-default"><img src="images/paw_blk.png" />Event</a></li>
+                                <li><a href="sponsors.htm" class="btn btn-default"><img src="images/paw_red.png" />Sponsors</a></li>
+                                <li><a href="vendors.htm" class="btn btn-default"><img src="images/paw_blk.png" />Vendors</a></li>
+                                <li><a href="volunteers.htm" class="btn btn-default"><img src="images/paw_red.png" />Volunteers</a></li>
+                                <li><a href="about.htm" class="btn btn-default"><img src="images/paw_blk.png" />About Us</a></li>
+                                <li><a href="contact.htm" class="btn btn-default"><img src="images/paw_red.png" />Contact Us</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+<!-- Vertical Nav Bar -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hidden-xs hidden-sm hidden-md col-lg-3">                  
+                    <div class="vertical">
+                        <img class="img-responsive center-block" src="images/PPC_logo_red.png" alt="Idaho Poker Ride 4 Paws and Claws" />
+                        <ul>
+                            <h3>2015 Event Information</h3>
+                            <li><a href="event.htm">Poker Ride Details</a></li>
+                            <li><a href="raffle.htm"><font color="#D71921">Bike Raffle</a></font></li>
+                            <li><a href="routeMap.htm">Route Maps</li>
+                            <li><a href="gear.htm">2015 Gear</li>                            
+                            <li><a href="prizes.htm">2015 Prizes</li>
+                            <li><a href="http://www.holidayinn.com/redirect?path=hd&amp;brandCode=hi&amp;localeCode=en&amp;regionCode=1&amp;hotelCode=BOIHI&amp;_PMID=99801505&amp;GPC=MCC&amp;blpu=true">Hotel Reservations</a></li>
+                            <br />
+                            <li><a href="sponsorship.htm"><font color="#D71921">2015 Sponsorship Opportunities!</a></font></li>
+                            <h3>Previous Events:</h3>
+                            <li><a href="2014results.htm">2014 Results</li></br></br>
+                            <li><a href="http://mwicyclingclub.com">About MWI Cycling Club</a></li>
+                        </ul></br></br>
+                        
+                    <div class="chips">
+                        <img class="img-responsive center-block" src="images/chips.png"><br />
+                    </div>
+
+                <!--MWI Cycling Link  -->
+                        <div class="cyclelink">
+                            Event hosted by: <a href="http://mwicyclingclub.com">mwicyclingclub.com</a><br /><br />
+                        </div>
+
+                <!-- Facebook Like -->
+                        <div class="fb-like pull-right" data-href="https://www.facebook.com/pages/MWI-Cycling-Club/475614792509623" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+      
+                <!-- MWI Club Logo -->
+                        <div class="clublogo center-block img-respnsive">
+                            <a href="http://mwicyclingclub.com.">
+                                <img class="img-responsive" src="images/mwicycle.png">
+                            </a>
+                        </div><br />
+
+                <!-- Webcounter -->
+                        <div id="webcounter">                         
+                          <a href="http://www.hitwebcounter.com/what-is-my-ip.php" target="_blank">
+                          <img src="http://hitwebcounter.com/counter/counter.php?page=6065152&style=0009&nbdigits=5&type=page&initCount=0" title="IP Address" Alt="IP Address"   border="0" >
+                          </a>
+                          <a href="http://www.hitwebcounter.com/" title="Web Stats" 
+                          target="_blank" style="font-family: Arial, Helvetica, sans-serif; 
+                          font-size: 11px; color: #9C9E94; text-decoration: underline ;"><strong>Web Stats</strong>
+                          </a> 
+                        </div>
+                    </div>
+                </div> <!-- end col-3 -->
+
+<!-- Middle Section-Main Content -->
+
+      <div id="volimg" class="xs-stacked col-xs-12 col-sm-12 col-md-12 col-lg-6"> 
+        <div class="main">
+          <h1 align="center">2015 Volunteers Needed!</h1>
+
+              <h3 align="center">If you want to participate in a fun event to raise money for a good cause, please sign up! We have several volunteer opportunities available.</h3>
+             <h3 align="center"><strong>Without the hard work and dedication or our volunteers this event would not be possible.</strong></h3></br>
+              
+              <div class="column">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="thumbnail">
+          <img class="center-block img-responsive" src="images/2014/slide (03).jpg">
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="thumbnail">
+          <img class="center-block img-responsive" src="images/2014/slide (7).jpg">
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="thumbnail">
+          <img class="center-block img-responsive" src="images/2015vshirt_front.png">
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="thumbnail">
+          <img class="center-block img-responsive" src="images/2015vshirt_back.PNG">
+        </div>
+      </div>
+    </div>  
+      <div id="volunteerops">
+        <ul style="list-style-image:url('images/paw_red.png');">      
+        <h2><b><font color="#D71921">Current Volunteer Opportunities</font></b></h2>
+        <li>Sign Crew Placement, 2 days prior to Event, 4 routes, September 10th 10AM-3PM</li>        
+        <li>Event Route Marking, 2 days prior to Event, 4 routes, September 10th 10AM-3PM</li>
+        <li>Event Route Marking, 1 day prior to Event, 4 routes, September 11th 10AM-3PM</li>
+        <li>Goody Bag Stuffing, 1 day prior to Event September 10th 5PM-10PM</li>
+        <li>Early Packet Pickup day, 1 day prior to Event, September 11th 4PM-7pm</li>
+        <li>Event Set up, 1 day prior to Event, many duties to fill, September 11th 8AM-8PM</li>
+        <li>Registration, day of Event, Rider check in/packet pickup September 12th 6AM-10AM</li>
+        <li>Prize tent (sell raffle tickets, jerseys, etc.), day of Event, September 12th 10AM-4PM</li>
+        <li>Rest Stops (x5), 2 people day of Event, (3 closes by noon-various times TBD)</li>        
+        <li>Tear down/clean up, day of Event, September 12th 5PM-8PM</li>        
+        <li>Event sign pickup, 1 day after Event,September 13th 10AM-3PM</li></br>
+        
+      </ul>
+    </div>
+
+<!--Volunteer Form  -->        
+              
+          <script type="text/javascript">
+    
+    function checkForm() {
+        if ($('#waiver').prop('checked') == false) {
+            alert("Check YES to the terms to continue");
+            return false;
+        }
+        alert("Thank You");
+        return true;
+    }
+     </script>
+            
+            <form role="form" method="post" action="volunteer.php"  onsubmit="return checkForm();">
+              
+                      
+                  </div>
+               
+               <h3><font color="#D71921">Sign Up Here:</font></h3>  
+               <div class="container-fluid">   
+                  <div id="table-responsive">
+                    <label>Please read and agree to our waiver for volunteer opportunities</label> 
+                     
+                    <p>In consideration of my registration to bicycle in a MWI Cycling Club event or my participation in any event, class or daily ride, I hereby agree and acknowledge the following, which includes a release of liability, which will apply to all of my participation in all MWI Cycling Club events, classes and daily rides, including any such activities of the MWI Cycling Club (individually an “Event,” and collectively “Events”):</p>
+                        <p><b>1.</b>  I am aware that with any bicycle related activity there are certain inherent dangers, including but not limited to the hazards of roads, off road terrain, accidents, actions of participants and other persons. By my participation in any Event, I certify that I am aware of these inherent dangers of bicycle riding and the safety rules of the road applicable to bicycles.</p>
+                        <p><b>2.</b>  I understand that bicycle helmets (CPSC, ANSI, ASTM or SNELL certified) are required to participate in all riding Events and I agree to wear a helmet while participating in any such Event and to follow the rules of the road and all applicable laws and safe bicycling practices.</p> 
+                        <p><b>3.</b>  I hereby consent to emergency medical treatment if I am injured while participating in an Event.</p>
+                        <p><b>4.</b>  I understand that it is not the function of the ride leaders (if an Event has ride leaders) to serve as guardians of my safety. I recognize that the route(s) chosen may be challenging, not necessarily the safest or easiest route(s) and that weather, road or traffic conditions may make a ride more difficult. MWI Cycling Club reserves the right to remove any rider who is deemed to be endangering himself/herself or others or is riding illegally as defined by Idaho State traffic law. Notwithstanding this clause, MWI Cycling Club is not responsible for cyclists not removed from the Event for any of these reasons and this clause shall in no way supersede, exempt participants from, or otherwise nullify any other clause in this Waiver & Release.</p>
+                        <p><b>5.</b>  I give permission to MWI Cycling Club to use my image without payment in any future MWI Cycling Club materials should it appear in photos taken during an Event.</p>
+                        <p><b>6.</b>  I freely and voluntarily accept all risks of injury, death, or property damage. I understand and agree that none of the parties described below may be held liable in any way for any occurrence or accident in connection with an Event. I hereby RELEASE from any and all liability and agree to INDEMNIFY AND HOLD HARMLESS MWI Cycling Club, their officers, agents, successors and assigns, the sponsors, the ride leader(s) (if any), or other volunteers, against all claims, including, but not limited to, claims of negligence, unintentional acts, and acts of omission, and any loss or expense, which may arise from my participation in any Event. I understand I am responsible for my own conduct and decisions while participating in a MWI Cycling Club Event and further agree that this Waiver & Release shall apply to any claim arising out of my participation in non-bicycling activities while a participant in an Event.</p>
+<p><b>7.</b>  This Waiver & Release is intended to be binding upon me, my family, my heirs, my estate, my legal representatives and assigns. Any legal action that may arise from my participation in this ride or event will be brought in Ada County Superior Court in Boise, ID. I understand that the terms of this document are contractual and not a mere recital and I have signed this document as my own free act.</p>
+
+                        <p><strong>ADDENDUM TO WAIVER & RELEASE FOR MINOR PARTICIPANTS</strong></p>
+                        <p>Parent or legal guardian must sign for, accompany, and be responsible for all persons under the age of 18; minors ages 16-17 may be unaccompanied with this signed consent form AND 24-hour advance permission of the ride leader or other authorized MWI Cycling Club official.</p>
+                        <p>I authorize emergency medical treatment for the minor registering and I accept full responsibility for all medical expenses incurred as a result of the minor’s participation in any Event. I hereby RELEASE from any liability, and agree to HOLD HARMLESS and INDEMNIFY MWI Cycling  Club Inc., their officers, agents, successors and assigns, the sponsors, the ride leader(s) (if any), or other volunteers from any claims brought by me, another parent, grandparent, relative, or legal guardian for liability, including injury, loss or damage caused by the negligence, unintentional acts, and acts of omission of any party, and any loss or expense, which may arise from the minor’s participation in any Event. I hereby further agree to INDEMNIFY MWI Cycling Club, their officers, agents, successors and assigns, the sponsors, the ride leader(s) (if any), and other volunteers from any future claim of liability by the minor named below.</p>
+                        <p>I further state that I am of lawful age, a parent or legal guardian of the minor authorized to sign this waiver & release and this Addendum and legally competent to sign this waiver & release and Addendum. I understand that the terms of this document are contractual and not a mere recital and I have signed this document as my own free act.</p>
+                        <br> <p><b>I AGREE I HAVE FULLY INFORMED MYSELF OF THE CONTENTS OF THIS WAIVER & RELEASE AND ADDENDUM BY READING IT AND AGREE TO ITS TERMS</b></p>
+               
+               <br><br><label>YES: <input type="checkbox" id="waiver" name="waiver" value="yes" required/></label>
+               <div class="form-group">
+                 
+                      <label for="first_name">Name:</label>
+                  <input type="text" class="form-control" name="first_name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" name="email" required>
+              </div>
+                  <div class="form-group">
+                       <label for="telephone">Phone #</label>
+                       <input type="text" class="form-control" name="telephone" required
+                          placeholder="(nnn) nnn nnnn">
+               </div>
+               <div class="form-group">
+                 <label for="shirt">Shirt Size:</label>
+                  <input type="text" class="form-control" name="shirt" required>
+              </div>
+                            <div class="form-group">
+                 
+                      <label for="ename">Emergency Contact:</label>
+                  <input type="text" class="form-control" name="ename" required>
+              </div>
+                  <div class="form-group">
+                       <label for="ephone">Emergency Contact #</label>
+                       <input type="text" class="form-control" name="ephone" required
+                          placeholder="(nnn) nnn nnnn" >
+               </div>
+                <br>
+                <div class="form-group">
+                  <label for="comments">Special Accommodations or Comments:</label>
+                  <textarea class="form-control" rows="3" name="comments" placeholder="Type comments here..."></textarea>
+                <br>
+                    
+              <div class="form-group">        
+              <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-danger">Reset</button>
+              </div>
+              </div>
+                    <br><br>
+          </form> 
+            </div>          
+            
+
+  </div>          
+   </div>
+</div>
+          
+<!-- Third Section-Well -->
+          
+          <div id="end" class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                    <div class="well well-lg">
+                        <h3><strong>Bring a bag of non-perishable dog or cat food to the event and receive a bonus card draw!</strong></h3>
+                        <p>
+                            We have once again secured our Title Sponsor, <strong>MWI Veterinary Supply, Inc.</strong>               
+                        </p>
+                <!--MWI Logo  -->
+                        <img class="img-responsive center-block" src="images/Sponsors/mwilogo.png" alt="MWI Logo">
+                <!--West Valley Logo  -->
+                        <p>
+                            Our 2015 efforts will benefit one organization this year-<strong>West Valley Humane Society, a no kill shelter located in Canyon County!</strong>
+                        </p>
+                        <img class="img-responsive center-block" src="images/westvalleylogo.png" alt="West Valley Humane Society">
+                    </div>
+
+                    <div class="facebook img-responsive">
+                        <a href="https://www.facebook.com/groups/194175700761042/">
+                            <img class="center-block" src="images/facebook.jpg">
+                        </a>
+                    </div> 
+
+                </div> <!-- end col-3 -->
+
+                    
+                
+            </div>
+        </div>
+        
+        <br><br><div id="footer">
+            <div class="container-fluid">
+                <div class="hidden-xs">
+                    <div class="panel-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

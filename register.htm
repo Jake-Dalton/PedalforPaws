@@ -1,0 +1,199 @@
+<!--
+      Purpose: Pedal for Paws and Claws Volunteers Page
+      Author: Nikki Vandermeer, Jake Dalton 
+      Date:   4/17/15
+
+      Filename:   register.htm
+      Related files: index.htm, CSS/styles.css
+      Supporting files: 
+   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pedal for Paws and Claws</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <script src="js/respond.min.js"></script>
+  
+    <style>
+        #table-responsive {
+            overflow: scroll;
+            border: 1px solid grey;
+            width: auto;
+            height: 600px;
+        }
+        
+          #table-responsive label {
+              padding-left: 30%;
+        }
+        
+    
+    
+    </style>
+
+</head>
+
+<body>
+
+<!-- Horizontal Nav Bar -->
+    <body>
+        <div class="navbar-wrapper">
+            <div class="container-fluid">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <p id="menuText">Menu <img src="images/paw_red.png" width="25px"/></p>
+                            </button>
+                        </div>
+
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav nav-justified">
+                                <li class="active"><a href="index.htm" class="btn btn-default"><img src="images/paw_red.png" />Home</a></li>
+                                <li><a href="event.htm" class="btn btn-default"><img src="images/paw_blk.png" />Event</a></li>
+                                <li><a href="sponsors.htm" class="btn btn-default"><img src="images/paw_red.png" />Sponsors</a></li>
+                                <li><a href="volunteers.htm" class="btn btn-default"><img src="images/paw_blk.png" />Volunteers</a></li>
+                                <li><a href="about.htm" class="btn btn-default"><img src="images/paw_red.png" />About Us</a></li>
+                                <li><a href="contact.htm" class="btn btn-default"><img src="images/paw_blk.png" />Contact Us</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+<!-- Vertical Nav Bar -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3">                  
+                    <div class="vertical">
+                        <img class="img-responsive center-block" src="images/PPC_logo_red.png" alt="Idaho Poker Ride 4 Paws and Claws" />
+                        <ul>
+                            <h3>2015 Event Information</h3>
+                            <li><a href="event.htm">Poker Ride Details</a></li>
+                            <li><a href="routeMap.htm">Route Maps</li>
+                            <li><a href="gear.htm">2015 Gear</li>
+                            <li><a href="prizes.htm">Raffle and Prizes</li>
+                            <li><a href="http://www.holidayinn.com/redirect?path=hd&amp;brandCode=hi&amp;localeCode=en&amp;regionCode=1&amp;hotelCode=BOIHI&amp;_PMID=99801505&amp;GPC=MCC&amp;blpu=true">Hotel Reservations</a></li>
+                            <br />
+                            
+                            <h3>Previous Events</h3>
+                            <li><a href="">2014 Photo Gallery</li>
+                            <li><a href="">2014 Results</li></br></br>
+                            <li><a href="http://mwicyclingclub.com">About MWI Cycling Club</a></li>
+                        </ul></br></br>
+                        
+                    <div class="chips">
+                        <img class="img-responsive center-block" src="images/chips.png"><br />
+                    </div>
+
+                <!--MWI Cycling Link  -->
+                        <div class="cyclelink">
+                            Event hosted by: <a href="http://mwicyclingclub.com">mwicyclingclub.com</a><br /><br />
+                        </div>
+
+
+                        <div class="clublogo center-block img-respnsive">
+                            <a href="http://mwicyclingclub.com.">
+                                <img class="img-responsive" src="images/mwicycle.png">
+                            </a>
+                        </div>
+                        <br />
+                    </div>
+                </div> <!-- end col-3 -->
+
+<!-- Middle Section-Main Content -->
+
+            <div id="volimg" class="xs-stacked col-xs-12 col-sm-8 col-md-6 col-lg-6"> 
+                <div class="main">
+                    <h1 align="center">Participation Waiver</h1></br></br>
+                    <h2 align="center">Please fill out and agree to the terms</h2>
+            
+            <form role="form" method="post" action="register.php">
+                  <div class="form-group">
+                     
+                      <label for="first_name">Name:</label>
+                      <input type="text" class="form-control" name="first_name" required="required">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" name="email" required="required">
+                  </div>
+                  <div class="form-group">
+                       <label for="telephone">Phone #</label>
+                       <input type="text" class="form-control" name="telephone" required="required"
+                          placeholder="(nnn) nnn nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+                      
+                  </div>
+                  
+                <h5><strong>Please read and agree to our participation waiver terms</strong></h5>
+                    <div id="table-responsive">
+                      
+                In consideration of my registration to bicycle in a MWI Cycling Club event or my participation in any event, class or daily ride, I hereby agree and acknowledge the following, which includes a release of liability, which will apply to all of my participation in all MWI Cycling Club events, classes and daily rides, including any such activities of the MWI Cycling Club (individually an “Event,” and collectively “Events”):
+1.  I am aware that with any bicycle related activity there are certain inherent dangers, including but not limited to the hazards of roads, off road terrain, accidents, actions of participants and other persons. By my participation in any Event, I certify that I am aware of these inherent dangers of bicycle riding and the safety rules of the road applicable to bicycles.
+2.  I understand that bicycle helmets (CPSC, ANSI, ASTM or SNELL certified) are required to participate in all riding Events and I agree to wear a helmet while participating in any such Event and to follow the rules of the road and all applicable laws and safe bicycling practices. 
+3.  I hereby consent to emergency medical treatment if I am injured while participating in an Event.
+4.  I understand that it is not the function of the ride leaders (if an Event has ride leaders) to serve as guardians of my safety. I recognize that the route(s) chosen may be challenging, not necessarily the safest or easiest route(s) and that weather, road or traffic conditions may make a ride more difficult. MWI Cycling Club reserves the right to remove any rider who is deemed to be endangering himself/herself or others or is riding illegally as defined by Idaho State traffic law. Notwithstanding this clause, MWI Cycling Club is not responsible for cyclists not removed from the Event for any of these reasons and this clause shall in no way supersede, exempt participants from, or otherwise nullify any other clause in this Waiver & Release.
+5.  I give permission to MWI Cycling Club to use my image without payment in any future MWI Cycling Club materials should it appear in photos taken during an Event.
+6.  I freely and voluntarily accept all risks of injury, death, or property damage. I understand and agree that none of the parties described below may be held liable in any way for any occurrence or accident in connection with an Event. I hereby RELEASE from any and all liability and agree to INDEMNIFY AND HOLD HARMLESS MWI Cycling Club, their officers, agents, successors and assigns, the sponsors, the ride leader(s) (if any), or other volunteers, against all claims, including, but not limited to, claims of negligence, unintentional acts, and acts of omission, and any loss or expense, which may arise from my participation in any Event. I understand I am responsible for my own conduct and decisions while participating in a MWI Cycling Club Event and further agree that this Waiver & Release shall apply to any claim arising out of my participation in non-bicycling activities while a participant in an Event.
+7.  This Waiver & Release is intended to be binding upon me, my family, my heirs, my estate, my legal representatives and assigns. Any legal action that may arise from my participation in this ride or event will be brought in Ada County Superior Court in Boise, ID. I understand that the terms of this document are contractual and not a mere recital and I have signed this document as my own free act.
+
+ADDENDUM TO WAIVER & RELEASE FOR MINOR PARTICIPANTS
+Parent or legal guardian must sign for, accompany, and be responsible for all persons under the age of 18; minors ages 16-17 may be unaccompanied with this signed consent form AND 24-hour advance permission of the ride leader or other authorized MWI Cycling Club official.
+I authorize emergency medical treatment for the minor registering and I accept full responsibility for all medical expenses incurred as a result of the minor’s participation in any Event. I hereby RELEASE from any liability, and agree to HOLD HARMLESS and INDEMNIFY MWI Cycling  Club Inc., their officers, agents, successors and assigns, the sponsors, the ride leader(s) (if any), or other volunteers from any claims brought by me, another parent, grandparent, relative, or legal guardian for liability, including injury, loss or damage caused by the negligence, unintentional acts, and acts of omission of any party, and any loss or expense, which may arise from the minor’s participation in any Event. I hereby further agree to INDEMNIFY MWI Cycling Club, their officers, agents, successors and assigns, the sponsors, the ride leader(s) (if any), and other volunteers from any future claim of liability by the minor named below. 
+I further state that I am of lawful age, a parent or legal guardian of the minor authorized to sign this waiver & release and this Addendum and legally competent to sign this waiver & release and Addendum. I understand that the terms of this document are contractual and not a mere recital and I have signed this document as my own free act.
+               <br> <b>I AGREE I HAVE FULLY INFORMED MYSELF OF THE CONTENTS OF THIS WAIVER & RELEASE AND ADDENDUM BY READING IT AND AGREE TO ITS TERMS</b>
+               
+               <br><br><label>YES: <input type="checkbox" name="waiver" value="yes" required/></label>
+               </div>
+                
+                <br>
+                <div class="form-group">
+                      <label for="comments">Any accommodations, comments or anything we need to know?</label>
+                      <textarea class="form-control" rows="3" name="comments" placeholder="Type comments here..."></textarea>
+                <br>
+                    <h3>Hit submit to proceed to the registration page!</h3>
+                  <div class="form-group">        
+                  <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="reset" class="btn btn-danger">Reset</button>
+                  </div>
+                  </div>
+                    <br><br>
+              </form> 
+            </div>
+                  
+              </div>
+            </div>
+                
+<!-- Third Section-Well -->
+                
+                <div id="end" class="col-xs-3 col-md-3 hidden-xs col-lg-3">
+                    <div class="well well-lg">
+                        <h3>2015 Pedal for Paws & Claws planning under way!</h3>
+                        <p>
+                            We have once again secured our Title Sponsor, <strong>MWI Veterinary Supply, Inc.</strong> 
+                            Our 2015 efforts will benefit one organization this year- <strong>West Valley Humane Society!</strong>            
+                        </p>
+                        <br /><br />
+                        <img class="img-responsive center-block" src="images/Sponsors/mwilogo.png" alt="MWI Logo">
+                        <br /><br />
+                    </div>
+
+                    <div class="facebook img-responsive">
+                        <a href="https://www.facebook.com/groups/194175700761042/">
+                            <img class="center-block" src="images/facebook.jpg">
+                        </a>
+                    </div>
+                </div> <!-- end col-3 -->
+            </div>
+        </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
