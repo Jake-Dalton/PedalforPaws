@@ -1,0 +1,304 @@
+/*
+Page Updated: 5/20/15 N.V. 
+
+Color Pallette:
+Dark Red: #D71921
+Slate Gray: #808080
+
+*/
+/*Body styles*/
+body {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: white;
+}
+a {
+	color: #D71921;
+	text-decoration: underline;
+}
+
+/*Horizontal Nav Bar*/
+.navbar {
+	/*float: left;*/
+	background-color: rgb(148, 144, 158);
+}
+
+
+.navbar li {
+	/*display: block;*/
+	color: #D71921;
+	/*float: left;*/
+	/*padding-left: 60px;*/
+	/*list-style-image: url('images/paw_red.png');*/
+/*	padding-top: 5px;
+    padding-bottom: 5px;*/
+}
+
+.navbar li img {
+	max-height: 25px;
+	padding-right: 3px;
+}
+
+.navbar a {
+	color: black;
+	font-size: 1.2em;
+	/*float: left;*/
+	/*padding-right: 25px;*/
+}
+
+nav.navbar a:hover {
+	color: #D71921;
+    background-color: #E1E1E1;
+}
+
+.btn-group button {
+/*	padding-left: 50px;*/
+}
+
+.btn-group button li {
+	/*list-style-image: url('images/paw_red.png');*/
+	padding-left: 0px;
+}
+
+/*Vertical Nav Bar*/
+
+.vertical {	
+	background-color: black;
+	color: white;
+	padding-left: 1px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	font-size: 1.7em;
+}
+
+.vertical a {
+	color: white;
+	text-decoration: none; 	
+}
+
+.vertical li {
+	list-style: none;
+	
+}
+
+.vertical img {
+	height: 12em;
+	padding-bottom: 30px;
+	padding-top: 0px;
+	/*padding-left: 5px;*/
+        
+}
+
+.vertical li:hover {
+	background-color: rgb(51, 51, 51);
+	outline-style: solid;
+	outline-color: rgb(255, 255, 255);
+	outline-width: 2px;
+}
+
+.cyclelink a {
+	text-decoration: underline;
+}
+
+/*Main Section Styles*/
+
+.main a {
+	color: #D71921;
+	text-decoration: underline;
+}
+
+.main li {
+	font-size: 26px;
+	list-style: none;
+	color: black;
+}
+
+.main h1 {
+	font-size: 2.9em;
+        font-weight: bold;
+
+}
+
+.main h2 {
+      font-weight: bold;
+}
+
+.main p {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+.main img {
+  height:auto;
+  width;auto;
+}
+
+#volimg img {
+    width:355px;
+    height: 255px;
+    /*float:left;*/
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+}
+#volunteerops li {
+	font-size: 1.7em;
+	
+}
+
+
+.clublogo img {
+	width: auto;
+	height: auto;
+	background-color: gray;
+	padding-right: 32px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	border: solid 1px;
+	border-radius: 5px;
+
+}
+
+.chips img {
+	height: 4em;
+	padding-bottom: 0px; /*Changed from 30 to 0*/
+}
+
+.chips a {
+	color: #D71921;
+}
+
+.facebook img {
+	max-height: 70px;
+	padding: 0px;
+	border: solid 2px;
+	border-radius: 5px;
+}
+
+#registerchip img {
+	max-height: 145px;
+	padding: 4px;
+}
+
+#sponsorshipchip img {
+	max-height: 205px;
+	padding: 4px;
+}
+
+#end img {
+	height: 15em;
+	margin-left:auto;
+        margin-right:auto;
+}
+
+.well {
+	background-color: rgb(148, 144, 158);
+	/*width: 22em;*/
+    padding: 2px;
+	padding-top: 0px;
+    color: white;
+}
+
+.well h3 {
+	text-align: center;
+	background-color: #D71921;
+    color: white;
+	border: 1px solid;
+	border-radius: 5px;
+	top-margin: 0px;
+	padding: 20px;
+
+}
+
+.well p {
+	text-align: center;
+	font-size: 1.5em;
+	/*margin-left: 2px;*/
+}
+
+
+/*Photo Carousel*/
+
+
+.carousel {
+	width: 95%;
+	height: 85%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-width: 75%;
+  margin: auto;
+  max-height: 480px;
+              
+}
+
+#menuText {
+    color: white;
+    font-size: 1.25em;
+    margin-top: 1px;
+    margin-bottom: -2px;
+}
+
+/*Sponsor image styles*/
+#sponsorimg figure {
+    width:27em;
+    float:left;
+    margin:0px;
+    text-align:center;
+    padding: 10px;
+}
+
+#sponsorimg img {
+    width:auto;
+    height: auto;
+    max-height: 190px;
+    min-height: 100px;
+
+}
+
+#prizesimg figure {
+/*	max-width: 75%;*/
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+
+/*Vendor image styles*/
+#vendorimg figure {
+    max-width:25em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    /*padding: 15px;*/
+}
+
+#vendorimg a {
+	font-size: 1.7em;
+	color: #D71921;
+        text-decoration: underline;
+}
+
+
+/*volunteer img styles*/
+#volimg img {
+	max-height: 300px;
+}
+
+.ridershirt figure img{
+    max-width:30em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding:5px;    
+}
+
+#webcounter img {
+   max-width: 100px;
+   height: auto;
+
+}
